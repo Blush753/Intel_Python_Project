@@ -225,7 +225,6 @@ def combobox_callback(choice):
     global Original,image1,image2,image3,image4,image,th1,t1,n1,s,fig
     print("combobox dropdown clicked:", choice)
     if choice=="Original":
-        plt.close(fig)
         textbox.delete("1.0", "end")
         image = Original
         canvas_image()
